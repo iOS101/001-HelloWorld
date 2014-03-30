@@ -27,7 +27,11 @@
 }
 
 - (IBAction)btnPressed:(id)sender {
-  UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Alert" message:@"Hello World : )" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+  UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Alert"
+                                                  message:@"Hello World : )"
+                                                 delegate:nil
+                                        cancelButtonTitle:@"OK"
+                                        otherButtonTitles:nil];
   [alert show];
 }
 @end
